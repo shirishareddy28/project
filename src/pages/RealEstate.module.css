@@ -1,0 +1,372 @@
+.petShop {
+  width: 576px;
+  height: 576px;
+  position: absolute;
+  margin: 0 !important;
+  top: 525.65px;
+  right: -695.8px;
+  filter: blur(335px);
+  border-radius: 50%;
+  background-color: rgba(128, 187, 255, 0.24);
+  transform: rotate(140.5deg);
+  transform-origin: 0 0;
+  z-index: 1;
+}
+.whatsappImage20230608At9 {
+  position: absolute;
+  top: -12px;
+  left: -5px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: none;
+}
+.rathi1Icon {
+  top: calc(50% - 250px);
+  left: calc(50% - 265.5px);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.gq11,
+.rathi1Icon,
+.savex1Icon {
+  position: absolute;
+  object-fit: cover;
+}
+.savex1Icon {
+  top: calc(50% - 250px);
+  left: calc(50% - 258.5px);
+  width: 516px;
+  height: 516px;
+  display: none;
+}
+.gq11 {
+  top: calc(50% - 261px);
+  left: calc(50% - 262.5px);
+  width: 525px;
+  height: 525px;
+}
+.gq11,
+.rathi11,
+.rathi2Icon,
+.wegile1Icon {
+  display: none;
+}
+.leewayIcon,
+.rathi11,
+.rathi2Icon,
+.tabish1121,
+.wegile1Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.leeway02Icon,
+.neemans1Icon,
+.neemans21,
+.savex11 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: none;
+}
+.leeway02Icon {
+  top: calc(50% - 250px);
+  left: calc(50% - 257.5px);
+}
+.neemans1Icon,
+.neemans21,
+.savex11 {
+  top: 0;
+  left: 0;
+}
+.whatsappImage20230608At91 {
+  object-fit: cover;
+}
+.eTextContiner,
+.whatsappImage20230608At91,
+.whatsappImage20230608At92 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 525px;
+  height: 525px;
+  display: none;
+}
+.eTextContiner {
+  top: 392px;
+  left: 23px;
+  width: 338px;
+  height: 74px;
+}
+.whatsappImage20230608At93 {
+  position: absolute;
+  top: calc(50% - 250px);
+  left: calc(50% - 268.5px);
+  width: 536px;
+  height: 505px;
+  object-fit: cover;
+}
+.bc96921541661071Icon {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 257.5px);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: none;
+}
+.workCard {
+  width: 517px;
+  height: 502px;
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--ut-80);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  max-width: 100%;
+  z-index: 1;
+}
+.osumareLogo0124 {
+  height: 100px;
+  width: 172px;
+  position: relative;
+  object-fit: contain;
+}
+.contactUs {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  font-size: var(--body300-rg-size);
+  line-height: 24px;
+  font-weight: 700;
+  font-family: var(--h200-blod);
+  color: var(--color-gray-400);
+  text-align: center;
+}
+.customerService2FillIcon {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.secondaryButton {
+  cursor: pointer;
+  border: 1px solid var(--color-gray-400);
+  padding: var(--padding-5xs) var(--padding-4xl);
+  background-color: transparent;
+  align-self: stretch;
+  border-radius: var(--br-13xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  white-space: nowrap;
+}
+.secondaryButton:hover {
+  background-color: rgba(51, 64, 77, 0.09);
+  border: 1px solid #33404d;
+  box-sizing: border-box;
+}
+.contactButton,
+.mainContent,
+.nav {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.contactButton {
+  width: 216px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-9xl) 0 0;
+}
+.mainContent,
+.nav {
+  flex-direction: row;
+  max-width: 100%;
+}
+.nav {
+  flex: 1;
+  backdrop-filter: blur(32px);
+  background-color: rgba(255, 255, 255, 0.64);
+  justify-content: space-between;
+  padding: var(--padding-5xs) var(--padding-61xl) 0;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  gap: var(--gap-xl);
+}
+.mainContent {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 87.5px;
+}
+.realEstateChild,
+.shape {
+  position: absolute;
+  margin: 0 !important;
+  filter: blur(335px);
+  border-radius: 50%;
+  transform-origin: 0 0;
+  z-index: 1;
+}
+.shape {
+  width: 381.9px;
+  height: 630.4px;
+  right: -119.52px;
+  bottom: 2873.97px;
+  background-color: var(--color-tomato);
+  transform: rotate(-126deg);
+}
+.realEstateChild {
+  width: 576px;
+  height: 576px;
+  bottom: 3147.35px;
+  left: 525.8px;
+  background-color: var(--color-dodgerblue-100);
+  transform: rotate(140.5deg);
+}
+.drivingTransformationsOne,
+.whatOurPharma {
+  align-self: stretch;
+  position: relative;
+  line-height: 48px;
+}
+.drivingTransformationsOne {
+  font-size: var(--h300-bold-size);
+  line-height: 36px;
+  font-family: var(--body300-rg);
+  color: var(--color-darkslategray-100);
+}
+.contentWrapper,
+.whatOurPharmaPartnersSayParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.whatOurPharmaPartnersSayParent {
+  width: 1040px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.contentWrapper {
+  width: 1234px;
+  flex-direction: row;
+  justify-content: center;
+}
+.contentWrapperParent {
+  flex: 1;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0), #f9f9f9);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 83px var(--padding-38xl) 72.2px 103px;
+  gap: var(--gap-45xl);
+  max-width: 100%;
+  z-index: 2;
+}
+.contentWrapperParent,
+.realEstate,
+.realEstateInner {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.realEstateInner {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-45xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--h400-bold-size);
+  color: var(--color-gray-400);
+  font-family: var(--h300-bold);
+}
+.realEstate {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 0 var(--padding-19xl);
+  gap: 96px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .contentWrapperParent {
+    padding-top: 54px;
+    padding-bottom: var(--padding-28xl);
+    box-sizing: border-box;
+  }
+  .realEstateInner {
+    padding-bottom: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .whatOurPharma {
+    font-size: var(--font-size-7xl);
+    line-height: 38px;
+  }
+  .contentWrapperParent {
+    padding-top: var(--padding-16xl);
+    padding-bottom: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+  .realEstateInner {
+    padding-bottom: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .nav {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .contentWrapperParent {
+    gap: var(--gap-13xl);
+    padding-left: var(--padding-32xl);
+    padding-right: var(--padding-9xl);
+    box-sizing: border-box;
+  }
+  .realEstate {
+    gap: 48px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .drivingTransformationsOne,
+  .whatOurPharma {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+  .contentWrapperParent {
+    gap: var(--gap-base);
+    padding-left: var(--padding-xl);
+    padding-top: var(--padding-4xl);
+  }
+  .contentWrapperParent,
+  .realEstateInner {
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .realEstate {
+    gap: var(--gap-5xl);
+  }
+}

@@ -1,0 +1,266 @@
+.formSectionChild,
+.formSectionItem {
+  position: absolute;
+  margin: 0 !important;
+  filter: blur(327px);
+  border-radius: 50%;
+  transform-origin: 0 0;
+}
+.formSectionChild {
+  width: 576px;
+  height: 576px;
+  bottom: -192.65px;
+  left: 537.8px;
+  background-color: var(--color-dodgerblue-100);
+  transform: rotate(140.5deg);
+}
+.formSectionItem {
+  width: 381.9px;
+  height: 630.4px;
+  top: 696.63px;
+  right: -144.52px;
+  background-color: var(--color-tomato);
+  transform: rotate(-126deg);
+}
+.connectWithOur,
+.reachOutFor {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.connectWithOur {
+  line-height: 48px;
+  font-weight: 800;
+}
+.reachOutFor {
+  font-size: var(--h300-bold-size);
+  line-height: 36px;
+  font-family: var(--body300-rg);
+  color: var(--color-darkslategray-100);
+}
+.formHeading {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.formContent,
+.formHeading,
+.inputFields {
+  display: flex;
+  max-width: 100%;
+}
+.formContent {
+  width: 904px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-57xl);
+  box-sizing: border-box;
+}
+.inputFields {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-base);
+  min-width: 152px;
+}
+.enterYourMessage,
+.message {
+  position: relative;
+  font-size: var(--body300-rg-size);
+  font-family: var(--h200-blod);
+  display: inline-block;
+}
+.message {
+  line-height: 24px;
+  font-weight: 600;
+  color: var(--color-gray-300);
+  text-align: center;
+  min-width: 71px;
+  flex-shrink: 0;
+}
+.enterYourMessage {
+  margin: 0;
+  height: 208px;
+  flex: 1;
+  line-height: 28px;
+  color: var(--ut-70);
+  text-align: left;
+  max-width: 100%;
+}
+.messageInputWrapper,
+.messagePlaceholderWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.messagePlaceholderWrapper {
+  border-radius: var(--br-9xs);
+  background-color: var(--color-gray-200);
+  border: 1px solid var(--color-silver);
+  flex-direction: row;
+  padding: var(--padding-7xs) var(--padding-mid) var(--padding-mid)
+    var(--padding-2xs);
+  flex-shrink: 0;
+}
+.messageInputWrapper {
+  height: 248px;
+  border-radius: var(--br-5xs);
+  flex-direction: column;
+  padding: 0;
+  gap: var(--gap-xs);
+}
+.formInputs,
+.messageInput {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+.messageInput {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  min-width: 152px;
+}
+.formInputs {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 32px 30px;
+}
+.getStarted {
+  position: relative;
+  font-size: var(--h300-bold-size);
+  line-height: 30px;
+  font-family: var(--h300-bold);
+  color: var(--color-white);
+  text-align: center;
+}
+.customerService2FillIcon {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.largeButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-smi) var(--padding-xl);
+  background-color: var(--color-royalblue);
+  width: 408px;
+  border-radius: var(--br-13xl);
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+  white-space: nowrap;
+}
+.largeButton:hover {
+  background-color: var(--color-cornflowerblue);
+}
+.form,
+.formFieldsContainer,
+.formSection,
+.largeButton {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.formFieldsContainer {
+  margin: 0;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--gap-13xl);
+}
+.form,
+.formSection {
+  box-sizing: border-box;
+}
+.form {
+  width: 904px;
+  box-shadow: 0 10px 44px rgba(0, 0, 0, 0.1);
+  border-radius: var(--br-base);
+  background-color: var(--color-white);
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: var(--padding-13xl) var(--padding-37xl);
+  z-index: 1;
+}
+.formSection {
+  align-self: stretch;
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-124xl) var(--padding-xl) var(--padding-114xl-5);
+  position: relative;
+  gap: var(--gap-44xl-5);
+  text-align: center;
+  font-size: var(--h400-bold-size);
+  color: var(--color-gray-400);
+  font-family: var(--h300-bold);
+}
+@media screen and (max-width: 1050px) {
+  .connectWithOur {
+    font-size: var(--font-size-7xl);
+    line-height: 38px;
+  }
+  .formContent {
+    padding-left: var(--padding-19xl);
+    padding-right: var(--padding-19xl);
+  }
+  .form,
+  .formContent,
+  .formSection {
+    box-sizing: border-box;
+  }
+  .form {
+    padding-left: var(--padding-9xl);
+    padding-right: var(--padding-9xl);
+  }
+  .formSection {
+    gap: var(--gap-13xl);
+    padding-top: var(--padding-74xl);
+    padding-bottom: var(--padding-68xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .formSection {
+    gap: var(--gap-base);
+  }
+}
+@media screen and (max-width: 450px) {
+  .connectWithOur,
+  .reachOutFor {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+  .formFieldsContainer,
+  .messageInput {
+    gap: var(--gap-base);
+  }
+  .form,
+  .formSection {
+    box-sizing: border-box;
+  }
+  .form {
+    gap: var(--gap-base);
+    padding-top: var(--padding-2xl);
+    padding-bottom: var(--padding-2xl);
+  }
+  .formSection {
+    padding-top: var(--padding-41xl);
+    padding-bottom: var(--padding-38xl);
+  }
+}

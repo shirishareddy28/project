@@ -1,0 +1,141 @@
+.ourServiceOfferings,
+.strategiesThatDrive {
+  align-self: stretch;
+  position: relative;
+  line-height: 48px;
+}
+.strategiesThatDrive {
+  height: 44px;
+  font-size: var(--h300-bold-size);
+  line-height: 36px;
+  font-family: var(--body300-rg);
+  color: var(--color-darkslategray-100);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.servicesHeading {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.getStarted,
+.serviceCards {
+  font-size: var(--h200-semi-size);
+}
+.serviceCards {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 32px 28.7px;
+  min-height: 510px;
+}
+.getStarted {
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+  font-family: var(--h300-bold);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  min-width: 105px;
+}
+.customerService2FillIcon {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.mButtons,
+.servicesContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mButtons {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base-5) var(--padding-45xl);
+  background-color: var(--color-royalblue);
+  border-radius: var(--br-13xl);
+  flex-direction: row;
+  gap: var(--gap-9xs);
+  white-space: nowrap;
+}
+.mButtons:hover {
+  background-color: var(--color-cornflowerblue);
+}
+.servicesContent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-49xl);
+}
+.services,
+.servicesSection {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.servicesSection {
+  flex: 1;
+  background-color: var(--color-whitesmoke-100);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-72xl) var(--padding-62xl);
+}
+.services {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 var(--padding-42xl-5);
+  text-align: center;
+  font-size: var(--h400-bold-size);
+  color: var(--color-gray-400);
+  font-family: var(--h300-bold);
+}
+@media screen and (max-width: 1050px) {
+  .ourServiceOfferings {
+    font-size: var(--font-size-7xl);
+    line-height: 38px;
+  }
+  .servicesSection {
+    padding-top: var(--padding-40xl);
+    padding-bottom: var(--padding-40xl);
+    box-sizing: border-box;
+  }
+  .services {
+    padding-bottom: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .servicesContent {
+    gap: var(--gap-15xl);
+  }
+  .servicesSection {
+    padding: var(--padding-19xl) var(--padding-21xl);
+    box-sizing: border-box;
+  }
+  .services {
+    padding-bottom: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ourServiceOfferings,
+  .strategiesThatDrive {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+  .servicesContent {
+    gap: var(--gap-mid);
+  }
+}

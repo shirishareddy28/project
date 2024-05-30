@@ -1,0 +1,192 @@
+.realEstateFocusedDigital {
+  width: 839px;
+  position: relative;
+  line-height: 48px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.realEstateFocusedDigitalMaWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.directingTheArrowUpcuateIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.directingTheArrowUpcuateWrapper {
+  height: 361px;
+  width: 507.1px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lgi) 0 0;
+  box-sizing: border-box;
+  min-width: 507.1px;
+  max-width: 100%;
+}
+.unlockThePotential {
+  width: 646px;
+  position: relative;
+  line-height: 48px;
+  display: inline-block;
+  max-width: 100%;
+}
+.atOsumareWe {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--h300-bold-size);
+  line-height: 36px;
+  font-family: var(--body300-rg);
+  color: var(--color-darkslategray-100);
+}
+.description {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.getStarted {
+  position: relative;
+  font-size: var(--h200-semi-size);
+  line-height: 28px;
+  font-weight: 600;
+  font-family: var(--h300-bold);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  min-width: 105px;
+}
+.customerService2FillIcon {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.mButtons {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base-5) var(--padding-45xl);
+  background-color: var(--color-royalblue);
+  border-radius: var(--br-13xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  white-space: nowrap;
+}
+.mButtons:hover {
+  background-color: var(--color-cornflowerblue);
+}
+.contentAndButton,
+.descriptionParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.descriptionParent {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  min-width: 476px;
+}
+.contentAndButton {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-20xl-9);
+  text-align: left;
+}
+.frameParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-45xl);
+  max-width: 100%;
+}
+.realEstateInner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-61xl) var(--padding-117xl-5);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--h400-bold-size);
+  color: var(--color-gray-400);
+  font-family: var(--h300-bold);
+}
+@media screen and (max-width: 1200px) {
+  .directingTheArrowUpcuateIcon {
+    align-self: stretch;
+    width: auto;
+  }
+  .directingTheArrowUpcuateWrapper {
+    flex: 1;
+  }
+  .contentAndButton {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .realEstateFocusedDigital,
+  .unlockThePotential {
+    font-size: var(--font-size-7xl);
+    line-height: 38px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .directingTheArrowUpcuateWrapper {
+    min-width: 100%;
+  }
+  .descriptionParent {
+    gap: var(--gap-base);
+    min-width: 100%;
+  }
+  .contentAndButton {
+    gap: var(--gap-xl);
+  }
+  .frameParent {
+    gap: var(--gap-13xl);
+  }
+  .realEstateInner {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    padding-bottom: var(--padding-70xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .atOsumareWe,
+  .realEstateFocusedDigital,
+  .unlockThePotential {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+  .frameParent {
+    gap: var(--gap-base);
+  }
+}

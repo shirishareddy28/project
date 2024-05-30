@@ -1,0 +1,256 @@
+.frequentlyAskedQuestions {
+  align-self: stretch;
+  position: relative;
+  line-height: 48px;
+}
+.pinpointYourAudience {
+  margin: 0;
+  width: 984px;
+  position: relative;
+  font-size: var(--h300-bold-size);
+  line-height: 36px;
+  font-family: var(--body300-rg);
+  color: var(--color-darkslategray-100);
+  display: inline-block;
+  max-width: 100%;
+}
+.faqContent {
+  width: 1030px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.howDoesOsumare {
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+}
+.symbol {
+  position: relative;
+  line-height: 20px;
+  transform: rotate(180deg);
+}
+.ifaSolid,
+.questionWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.ifaSolid {
+  justify-content: flex-end;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-font-awesome-5-free);
+}
+.questionWrapper {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.divfaqBoxQuestion {
+  width: 800px;
+  box-shadow: 0 10px 15px rgba(0, 120, 255, 0.35);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-30xl) var(--padding-xl)
+    var(--padding-26xl);
+  box-sizing: border-box;
+}
+.howDoesOsumare1 {
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+}
+.symbol1 {
+  position: relative;
+  line-height: 20px;
+  transform: rotate(180deg);
+}
+.howDoesOsumareMeasureCampaParent,
+.ifaSolid1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.ifaSolid1 {
+  justify-content: flex-end;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-font-awesome-5-free);
+}
+.howDoesOsumareMeasureCampaParent {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.p {
+  width: 474px;
+  height: 23px;
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 12px);
+  left: 45px;
+  z-index: 1;
+}
+.divfaqBox,
+.divfaqBoxQuestion1 {
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divfaqBoxQuestion1 {
+  align-self: stretch;
+  box-shadow: 0 10px 15px rgba(0, 120, 255, 0.35);
+  padding: var(--padding-xl) var(--padding-30xl) var(--padding-xl)
+    var(--padding-26xl);
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.divfaqBox {
+  width: 800px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+.howDoesOsumare2 {
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+}
+.symbol2 {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 16px;
+}
+.answerQuestionContent,
+.ifaSolid2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.ifaSolid2 {
+  justify-content: flex-end;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-font-awesome-5-free);
+}
+.answerQuestionContent {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.p1 {
+  width: 474px;
+  height: 23px;
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 12px);
+  left: 45px;
+  z-index: 1;
+}
+.divfaqBoxQuestion2 {
+  align-self: stretch;
+  box-shadow: 0 10px 15px rgba(0, 120, 255, 0.35);
+  background-color: var(--color-royalblue);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-30xl) var(--padding-xl)
+    var(--padding-26xl);
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.weBelieveIn {
+  margin: 0;
+  height: 117px;
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+}
+.divfaqBoxAnswer {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xl) var(--padding-32xl) var(--padding-8xl-8)
+    var(--padding-26xl);
+  box-sizing: border-box;
+  max-height: 200px;
+  max-width: 100%;
+  font-size: var(--body300-rg-size);
+  color: var(--color-dimgray);
+  font-family: var(--body300-rg);
+}
+.divfaqBox1,
+.faq,
+.faqContentParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.divfaqBox1 {
+  width: 800px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 var(--br-5xs) var(--br-5xs);
+  background-color: var(--color-white);
+  align-items: flex-start;
+  color: var(--color-white);
+}
+.faq,
+.faqContentParent {
+  align-items: center;
+  max-width: 100%;
+}
+.faq {
+  width: 1280px;
+  overflow-x: auto;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--h200-semi-size);
+  color: var(--color-gray-500);
+}
+.faqContentParent {
+  align-self: stretch;
+  gap: var(--gap-45xl);
+  text-align: center;
+  font-size: var(--h400-bold-size);
+  color: var(--color-gray-400);
+  font-family: var(--h300-bold);
+}
+@media screen and (max-width: 1050px) {
+  .frequentlyAskedQuestions {
+    font-size: var(--font-size-7xl);
+    line-height: 38px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .faqContentParent {
+    gap: var(--gap-13xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .frequentlyAskedQuestions,
+  .pinpointYourAudience {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+  .symbol,
+  .symbol1,
+  .symbol2 {
+    font-size: var(--body300-rg-size);
+    line-height: 16px;
+  }
+  .faqContentParent {
+    gap: var(--gap-base);
+  }
+}

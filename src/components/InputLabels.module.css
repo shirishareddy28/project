@@ -1,0 +1,51 @@
+.enterYourName,
+.name {
+  position: relative;
+  display: inline-block;
+}
+.name {
+  line-height: 24px;
+  font-weight: 600;
+  min-width: 45px;
+}
+.enterYourName {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: var(--h200-blod);
+  font-size: var(--body300-rg-size);
+  background-color: transparent;
+  height: 28px;
+  flex: 1;
+  line-height: 28px;
+  color: var(--ut-70);
+  text-align: left;
+  min-width: 214px;
+  max-width: 100%;
+  padding: 0;
+}
+.inputLabels,
+.inputPlaceholders {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.inputPlaceholders {
+  border-radius: var(--br-9xs);
+  background-color: var(--color-gray-200);
+  border: 1px solid var(--color-silver);
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: var(--padding-7xs) var(--padding-3xs) var(--padding-7xs)
+    var(--padding-2xs);
+}
+.inputLabels {
+  flex-direction: column;
+  gap: var(--gap-xs);
+  text-align: center;
+  font-size: var(--body300-rg-size);
+  color: var(--color-gray-300);
+  font-family: var(--h200-blod);
+}
